@@ -24,6 +24,6 @@ The Document Storage Service is a simple RESTful web service that allows clients
 * Spring Boot - 2.1.2.RELEASE
 * Spring Data JPA - 2.1.2 RELEASE
 * H2
-* Springfox-swagger - 2.9.2 (used for rest api documenation)
+* Springfox-swagger - 2.9.2 (used for rest api documenation) [Application REST API document can be found at http://localhost:8080/swagger-ui.html]
 * Java - 1.8
 * Maven - 4.0
