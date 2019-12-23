@@ -21,6 +21,7 @@ import com.wei.documentstorage.model.Document;
 import com.wei.documentstorage.model.DocumentMetadata;
 import com.wei.documentstorage.exception.DocumentNotFoundException;
 import com.wei.documentstorage.service.DocumentStorageService;
+import com.wei.documentstorage.service.StorageService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -30,7 +31,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value="Document Storage")
 public class DocumentStorageController {
 	@Autowired
-	private DocumentStorageService storageService;
+	private StorageService storageService;
 	
 	@ApiOperation(value="Create a document")
 	@PostMapping
